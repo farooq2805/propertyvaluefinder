@@ -36,7 +36,7 @@ export const getPropertyValuation = async (details: PropertyDetails): Promise<Va
     properties: {
       minPrice: { type: Type.NUMBER, description: "Minimum estimated price in INR" },
       maxPrice: { type: Type.NUMBER, description: "Maximum estimated price in INR" },
-      currency: { type: Type.STRING, description: "Currency symbol, usually â¹ or INR" },
+      currency: { type: Type.STRING, description: "Currency symbol, usually Ã¢ÂÂ¹ or INR" },
       avgPricePerSqFt: { type: Type.NUMBER, description: "Average price per square foot in INR" },
       trends: {
         type: Type.ARRAY,
